@@ -127,10 +127,12 @@ nav a:hover {
   background-color: var(--dark);
 }
 
+.btn a,
 .pill a {
   transition: all 0.5s ease-out;
 }
 
+.btn:hover a,
 .pill:hover a {
   color: var(--secondary);
 }
