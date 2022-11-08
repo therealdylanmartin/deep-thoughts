@@ -27,7 +27,7 @@ const ThoughtForm = () => {
         data: { me: { ...me, thoughts: [...me.thoughts, addThought] } }
       });
     }
-  });
+  })
 
   const handleChange = event => {
     if (event.target.value.length <= 280) {
